@@ -1,0 +1,19 @@
+
+Methods to Add CSS
+1.- In-Line
+2.- Internal (head section)
+3.- External
+
+Selectors:
+* Universal
+** Selects every element
+* Type Selector (Element Selector)
+* Descendant Selector
+
+Class & ID Selectors
+ID's are unique
+Class --> more than one element
+ID Selector --> based on ID.  An element can only have one ID and a page can only have one element with the same ID name.  Have Browser funct.
+
+Grouping Selectors
+

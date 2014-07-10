@@ -1,0 +1,22 @@
+
+@import 'more-styles.css';
+
+h1 {
+	color: white;
+	background-color:  #E14607;
+}
+
+h2 {
+	color: steelblue;
+	padding-bottom:  10px;
+	border-bottom:  2px dotted;
+}
+
+ul {
+	color:  white;
+	background-color:  steelblue;
+}
+
+body {
+	background-color:  #BDD4DE;
+}

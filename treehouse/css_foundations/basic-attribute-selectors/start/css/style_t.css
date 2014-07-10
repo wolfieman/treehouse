@@ -1,0 +1,14 @@
+/* Complete the challenge by writing CSS below */
+
+a[title] {
+	color: darkred;
+}
+
+input[type="text"] {
+	background: lightyellow;
+}
+
+input[type="submit"] {
+	background-color: steelblue;
+	color: white;
+}
