@@ -4,16 +4,88 @@
 		"selected_items":
 		[
 			[
-				"fon",
-				"font-weight"
+				"line",
+				"line-height"
 			],
 			[
-				"co",
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"colo",
 				"color"
 			],
 			[
 				"font",
+				"font-weight"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fo",
 				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"co",
+				"color"
 			],
 			[
 				"bacl",
@@ -24,26 +96,13 @@
 	"buffers":
 	[
 		{
-			"file": "class-and-ID/start/index.html",
-			"settings":
-			{
-				"buffer_size": 1251,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "class-and-ID/start/css/style.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "\nMethods to Add CSS\n1.- In-Line\n2.- Internal (head section)\n3.- External\n\nSelectors:\n* Universal\n** Selects every element\n* Type Selector (Element Selector)\n* Descendant Selector\n\nClass & ID Selectors\nID's are unique\nClass --> more than one element\nID Selector --> based on ID.  An element can only have one ID and a page can only have one element with the same ID name.  Have Browser funct.\n\nGrouping Selectors\nDRY:  Don't Repeat Yourself\n\nCombinators\n* Space\n* > Direct Child\n* + Adjacent Sibling\n* ~ General Sibling\n\nAttribute Selectors\n\nLink & User Action Pseudo-Classes\ndynamically based on user inter-action or element state\nLink Pseudo-Classes\nUser Action Pseudo Classes\n* Hover\n\nSubstring Matching Attribute Selectors\n* Begings With ^\n* Ends With $\n* Contains *\n\nnth-child & nth-last-child\nBasic Expression Syntax\n* :nth-child(an+b)\n\nnth-of-type & only-of-type\n",
 			"file": "notes.txt",
+			"file_size": 823,
+			"file_write_time": 1405018691000000,
 			"settings":
 			{
-				"buffer_size": 249,
+				"buffer_size": 869,
 				"line_ending": "Unix"
 			}
 		}
@@ -51,15 +110,35 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 71.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 462.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -72,11 +151,47 @@
 	},
 	"file_history":
 	[
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/pseudo-elements-1/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/pseudo-elements-1/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/ui-element-states-pseudo-classes/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/ui-element-states-pseudo-classes/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/ui-element-states-pseudo-classes/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/additional-pseudo-classes/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/additional-pseudo-classes/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/additional-pseudo-classes/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/nth-of-type_and_only-of-type/start/index.html",
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/nth-of-type_and_only-of-type/start/css/style.css",
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/User/trailing_spaces.sublime-settings",
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/nth-child/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/nth-child/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/substring-matching-attribute-selectors/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/substring-matching-attribute-selectors/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-structural-pseudo-classes/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-structural-pseudo-classes/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-structural-pseudo-classes/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-structural-pseudo-classes/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/link-and-user-action-pseudo-classes/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/link-and-user-action-pseudo-classes/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-attribute-selectors/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-attribute-selectors/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-attribute-selectors/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/basic-attribute-selectors/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/combinators/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/combinators/start/index.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/combinators/start/css/style_t.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/combinators/start/index_t.html",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/grouping-selectors/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/grouping-selectors/start/index.html",
 		"/Users/wsanyer/projects/web/treehouse/css_foundations/notes.txt",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/class-and-ID/start/css/style.css",
+		"/Users/wsanyer/projects/web/treehouse/css_foundations/class-and-ID/start/index.html",
 		"/Users/wsanyer/projects/web/treehouse/css_foundations/type-selectors/start/css/style.css",
 		"/Users/wsanyer/projects/web/treehouse/css_foundations/type-selectors/start/index.html",
-		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+		"/Users/wsanyer/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
 	],
 	"find":
 	{
@@ -111,80 +226,116 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "class-and-ID/start/index.html",
-					"settings":
-					{
-						"buffer_size": 1251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "class-and-ID/start/css/style.css",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "notes.txt",
 					"settings":
 					{
-						"buffer_size": 249,
+						"buffer_size": 869,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								869,
+								869
 							]
 						],
 						"settings":
 						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -242,16 +393,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 271.0,
 	"status_bar_visible": true
 }

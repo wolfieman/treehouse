@@ -16,4 +16,29 @@ Class --> more than one element
 ID Selector --> based on ID.  An element can only have one ID and a page can only have one element with the same ID name.  Have Browser funct.
 
 Grouping Selectors
+DRY:  Don't Repeat Yourself
 
+Combinators
+* Space
+* > Direct Child
+* + Adjacent Sibling
+* ~ General Sibling
+
+Attribute Selectors
+
+Link & User Action Pseudo-Classes
+dynamically based on user inter-action or element state
+Link Pseudo-Classes
+User Action Pseudo Classes
+* Hover
+
+Substring Matching Attribute Selectors
+* Begings With ^
+* Ends With $
+* Contains *
+
+nth-child & nth-last-child
+Basic Expression Syntax
+* :nth-child(an+b)
+
+nth-of-type & only-of-type

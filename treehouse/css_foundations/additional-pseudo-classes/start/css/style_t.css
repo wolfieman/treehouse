@@ -1,0 +1,9 @@
+/* Write your CSS code below */
+
+:root {
+  background-color: lightblue;
+}
+
+:target {
+  background-color: tomato;
+}
